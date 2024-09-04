@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Eshop Sign In Suite">
+    <test name="Successful Sign In">
+        <parameter name="email" value="Izabela.Grempka@gmail.com"/>
+        <parameter name="password" value="Dodoptak7"/>
+        <classes>
+            <class name="eshop.SignInTest"/>
+        </classes>
+    </test>
+    <test name="Sign Out">
+        <classes>
+            <class name="eshop.SignOutTest"/>
+        </classes>
+    </test>
+</suite>
